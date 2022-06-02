@@ -93,10 +93,6 @@ a, a:focus, a:hover {
   color: #000;
 }
 
-a#hoverrosa a#hoverrosa:focus, a#hoverrosa:hover {
-  background-color: #F0A7A0;
-}
-
 blockquote {
   font-size: 18px;
   border-color: #000;
