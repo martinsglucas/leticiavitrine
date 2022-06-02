@@ -87,6 +87,7 @@ ol, ul {
 iframe {
   border: 0;
 }
+
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
@@ -354,7 +355,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .page-header {
-  background: rgba(240, 167, 160, 0.5);
+  background: #F0A7A0;
   margin-top: 20px;
   border-bottom: none;
   padding: 30px 0;
@@ -1007,9 +1008,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   font-size: 15px;
   font-weight: 400;
   color: white;
+  border-color: white;
   letter-spacing: 1px;
   font-family: "Roboto Condensed";
-  border-color: white;
+  border-color: none;
   border-style: solid;
   border-width: 2px;
   outline: none;
@@ -1027,7 +1029,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .hero-slider .btn:hover {
   color: black;
-  background-color: #fff;
+  background-color: white;
 }
 
 .hero-slider h1 {
@@ -1057,7 +1059,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .heroSliderArrow:focus, .heroSliderArrow:hover {
-  background-color: #000;
+  background-color: black;
   color: #fff;
   outline: 0;
 }
