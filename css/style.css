@@ -87,13 +87,14 @@ ol, ul {
 iframe {
   border: 0;
 }
-#hoverrosa a:hover, a:focus{
-  background-color: #F0A7A0;
-}
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
   color: #000;
+}
+
+#hoverrosa a:focus, a:hover {
+  background-color: #F0A7A0;
 }
 
 blockquote {
