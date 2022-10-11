@@ -1,3 +1,2 @@
-# leticiavitrine
-site de cosméticos
-link do site: https://w4rt1n5.github.io/leticiavitrine/
+# Site de Cosméticos Leticia Vitrine
+link: leticiavitrine.vercel.app/index.html
