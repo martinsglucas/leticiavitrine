@@ -181,6 +181,8 @@
 				<div class="contact-form col-md-6 " >
 					<form id="contact-form" method="POST" action="https://formsubmit.co/leticiadossantosgabriel@gmail.com" role="form">
 					
+						<input type="hidden" name="_subject" value="[Letícia Vitrine]">
+						
 						<div class="form-group">
 							<input type="text" placeholder="Seu Nome Completo" class="form-control" name="name" id="nome" required>
 						</div>
@@ -199,8 +201,11 @@
 
 						<input type="hidden" name="_captcha" value="false">
 
-						<input type="hidden" name="_subject" value="[Letícia Vitrine]">
+						<input type="hidden" name="_next" value="https://leticiavitrine.vercel.app/contact.html">
+
+						<input type="hidden" name="_template" value="box">
 						
+						<!--
 						<div id="mail-success" class="success">
 							Mensagem enviada com sucesso :)
 						</div>
@@ -208,7 +213,7 @@
 						<div id="mail-fail" class="error">
 							Desculpe, não sei o que aconteceu. Tente depois :(
 						</div>
-						
+						-->
 						<div id="cf-submit">
 							<!--<input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">-->
 							<button type="submit" id="contact-submit" class="btn btn-trasparent" value="Enviar">Enviar</button>
