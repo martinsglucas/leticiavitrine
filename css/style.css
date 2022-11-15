@@ -64,6 +64,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+	background: #fff;
+	border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+		background: rgba(240, 167, 160, 1);
+		border-radius: 30px;
+}
+
 p {
   font-family: "Oswald", sans-serif;
   color: #757575;
@@ -91,7 +105,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #000;
+  color: #fff;
 }
 
 blockquote {
