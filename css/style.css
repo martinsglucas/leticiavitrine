@@ -101,11 +101,15 @@ ol, ul {
 iframe {
   border: 0;
 }
-
-a, a:focus, a:hover {
+#saibamais_promocao, #saibamais_promocao:focus, #saibamais_promocao:hover {
   text-decoration: none;
   outline: 0;
   color: #fff;
+}
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: #000;
 }
 
 blockquote {

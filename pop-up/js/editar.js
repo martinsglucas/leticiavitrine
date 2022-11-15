@@ -3,7 +3,7 @@
             '<span></span>' +
             '<span></span>' +
             '<span></span>' +
-            '<a href="https://wa.me/5561992975900/?text=Oi,%20gostaria%20de%20saber%20mais%20sobre%20a%20promoção%20do%20kit%20de%20pincéis%20Glam." target="_blank" class="bio_btn">Saiba Mais</a>' +
+            '<a id="saibamais_promocao" href="https://wa.me/5561992975900/?text=Oi,%20gostaria%20de%20saber%20mais%20sobre%20a%20promoção%20do%20kit%20de%20pincéis%20Glam." target="_blank" class="bio_btn">Saiba Mais</a>' +
             '</div>',
             css: '#bio_ep {width: 560px; height: 560px; color: #333; background-color: #fafafa; text-align: center;background-image: url(pop-up/imagens-pop/promocao.png);background-size: cover;}' +
             '#bio_ep_content {padding: 255px 0 0 0; font-family: inherit;}' +
