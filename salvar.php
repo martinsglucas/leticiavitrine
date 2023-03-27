@@ -31,19 +31,5 @@
   mail($destino, $assunto, $arquivo, $headers);
   
   echo "<meta http-equiv='refresh' content='2;URL=../contact.html'>";
-
-  // Inicialize a sessão cURL
-  $ch = curl_init();
-
-  // Defina a URL e outras opções
-  curl_setopt($ch, CURLOPT_URL, "https://api.callmebot.com/whatsapp.php?phone=556193738770&text=Tem+um+novo+email&apikey=9217660");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-  // Execute a solicitação e armazene a resposta em uma variável
-  $resposta = curl_exec($ch);
-
-  // Encerre a sessão cURL
-  curl_close($ch);
-
-
+  
 ?>
